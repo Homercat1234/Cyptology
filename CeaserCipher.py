@@ -15,6 +15,6 @@ def decipher(text, amount):
 
 def bruteForce(text):
         for x in range(26):
-            print(x, ":", decipher(text, x))
+            print(str(x).zfill(2), ":", decipher(text, x))
 
 bruteForce("odkbfamzmxkeue")
